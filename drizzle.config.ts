@@ -5,11 +5,11 @@ export default {
   out: './drizzle',
   dialect: 'postgresql',
   dbCredentials: {
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'postgres',
     password: 'postgres',
-    database: 'bento',
-    port: 5432,
+    database: 'postgres',
+    port: 54322,
     ssl: false
   },
 } satisfies Config; 
